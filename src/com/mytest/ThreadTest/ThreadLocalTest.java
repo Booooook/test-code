@@ -8,13 +8,7 @@ public class ThreadLocalTest {
 
     public static void main(String[] args) {
 
-        int j=0;
-        for (int i = 1; i <= 150; i++) {
-            if (i%15==0)
-                j++;
-            if (i%3!=0 && i%5!=0)
-                j++;
-        }
-        System.out.println(j);
+        String s = "ENTERPRISE_CUSTOM";
+        System.out.println(s.toLowerCase());
     }
 }
